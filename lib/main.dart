@@ -4,7 +4,7 @@ void main() {
   runApp(
     MaterialApp(
       home: Scaffold(
-        body: GradientContainer(),
+        body: GradientContainer(Alignment.topLeft, Alignment.bottomRight),
       ),
     ),
   );
